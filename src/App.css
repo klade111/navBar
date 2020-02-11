@@ -1,0 +1,23 @@
+.nav-m{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.drop-m{
+    list-style: none;
+
+    margin-left: -100px;
+    
+        padding-top: 10px;
+        list-style: none;
+        display: none;
+        position: absolute;
+        margin-left: -100px
+
+
+}
+.menu:hover > ul{
+    display: block;
+    
+}
